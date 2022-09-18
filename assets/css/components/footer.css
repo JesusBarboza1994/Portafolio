@@ -1,0 +1,21 @@
+@import url("/assets/css/general/color.css");
+.footer {
+    background-color: var(--primary-light);
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 3em 0;
+  }
+  
+  footer{
+    align-items: center;
+    padding: 0px 0px;
+    text-align: center;
+    color: var(--primary-darker);
+  } 
+  

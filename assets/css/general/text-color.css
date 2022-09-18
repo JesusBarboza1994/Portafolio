@@ -1,0 +1,42 @@
+@import url("/assets/css/general/color.css");
+
+.color--black{
+    color: var(--black);
+}
+  
+.color--gray{
+    color: var(--gray-200); 
+}
+
+.color-primary--dark{
+    color: var(--primary-dark);
+}
+
+.color-primary--darker{
+    color: var(--primary-darker);
+}
+
+.color-primary--regular{
+    color: var(--primary-regular);
+}
+
+.color--gray-500{
+    color: var(--gray-500); 
+}
+
+.color--gray-700{
+    color: var(--gray-700); 
+}
+
+.background-white{
+    background-color: var(--white);
+}
+
+.background-primary--regular{
+    background-color: var(--primary-regular);
+}
+
+.background-primary--lighter{
+    background-color: var(--primary-lighter);
+}
+

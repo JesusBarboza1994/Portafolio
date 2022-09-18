@@ -1,0 +1,11 @@
+@import url("/assets/css/general/color.css");
+
+.header {
+    background-color: var(--primary-darker);
+}
+  
+header h1, header a{
+    color: var(--primary-regular);
+}
+
+  

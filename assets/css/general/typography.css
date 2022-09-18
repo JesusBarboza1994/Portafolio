@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("/assets/css/general/color.css");
+:root {
+    --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+body {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-family: var(--font-primary);
+    background-color: var(--primary-lighter);
+
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+    /* line-height: 1.5rem; */
+    line-height: 2rem;
+  }
+  
+  .text,
+  .text-md {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  
+  .head-3xl {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+  
+  .head-2xl {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+  
+  .head-xl {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  .head-lg {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+  
+  .head, 
+  .head-md {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .head-sm {
+    font-size: 1.87rem;
+    line-height: 2.5rem;
+  }
+  
+  .head-xs {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .article-h1{
+    font-size: 2.25rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+
+  .article-h2{
+    font-size: 1.875rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .weight-300{
+    font-weight: 300;
+  }
+
+  .weight-400{
+    font-weight: 400;
+  }
+
+  .weight-600{
+    font-weight: 600;
+  }
+
+  .weight-400{
+    font-weight: 400;
+  }
+
+  .center-align{
+    text-align: center;
+  }

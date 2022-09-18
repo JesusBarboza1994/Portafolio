@@ -1,0 +1,78 @@
+/* Containers */
+
+.container-sm {
+  max-width: 640px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-md {
+  max-width: 768px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-xl {
+  max-width: 1248;
+  padding: 0 16px;
+  margin: auto;
+}
+
+/* Sections */
+
+.section-sm {
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
+  padding: 32px 0;
+}
+
+.section-md {
+  padding: 48px 0;
+}
+
+.section-mg{
+  padding: 64px 0;
+}
+
+.section-lg {
+  padding: 96px 0;
+}
+
+.section-xl {
+  margin: 144px 0;
+}
+
+.marginv-20-40{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.marginv-10{
+  margin: 10px 0px;
+}
+
+.paddingh-32{
+  padding: 0px 32px;
+}
+
+.margin-top-1{
+  margin-top: 1rem;
+}
+
+.margin-bottom-24{
+  margin-bottom: 24px;
+}
+
+.margin-bottom-3{
+  margin-bottom: 3rem;
+}
+
+.max-width-500{
+  max-width: 500px;
+}

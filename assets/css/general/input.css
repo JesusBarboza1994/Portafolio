@@ -1,0 +1,13 @@
+@import url("/assets/css/general/color.css");
+
+.label-form{
+    text-align: left;
+    width: 100%;
+}
+
+.input-form{
+    border-radius: 6px;
+    border: 1px solid var(--gray-700);
+    height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+}

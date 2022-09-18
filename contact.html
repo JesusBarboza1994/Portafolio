@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/codeable.jpg">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <header class="header background">
+        <div class="container-lg">
+          <nav class="navbar">
+            <input type="checkbox" id="check" hidden >
+            <a href="./index.html">
+              <h1 class="head">Jesus Barboza</h1>
+            </a>
+            <label for="check">
+                <div class="flex-column hamburguer" id="hambur">
+                    <div class="hamb-line1"></div>
+                    <div class="hamb-line2"></div>
+                    <div class="hamb-line3"></div>
+                </div>
+            </label>
+            <ul class="navbar__links expandable">
+              <li><a href="./article.html" class="link">Articles</a>
+              </li>
+              <li><a href="./portafolio.html" class="link">Portafolio</a>
+              </li>
+              <li><a href="./about.html" class="link">About</a>
+              </li>
+              <li><a href="./contact.html" class="button button--primary button--sm text-decoration-none">Contact me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <section class="section-md text-center">
+        <div class="container-lg">
+
+            <h1 class="head-lg color-primary--darker">Contact Me</h1>
+            <p>Looking to expand yur team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form</p>
+            <form action="" class="container-sm">
+                <div class="grid-form  section-sm">
+                    <label for="name" class="text-xs label-form color-primary--darker">
+                        FIRST NAME
+                        <input type="text" name="name" id="name" placeholder="John" class="input-form">
+                    </label>
+                    <label for="last_name" class="text-xs label-form color-primary--darker">
+                        LAST NAME
+                        <input type="text" name="name" id="last_name" placeholder="Doe" class="input-form">
+                    </label>
+                    <label for="email" class="text-xs label-form color-primary--darker">
+                        EMAIL
+                        <input type="mail" name="email" id="email" placeholder="john@mail.com" class="input-form">
+                    </label>
+                    <label for="company" class="text-xs label-form color-primary--darker">
+                        COMPANY
+                        <input type="text" name="company" id="company" placeholder="Company SA" class="input-form">
+                    </label>
+                    <label for="phone" class="text-xs label-form color-primary--darker">
+                        PHONE
+                        <input type="tel" name="phone" id="phone" placeholder="987654321" class="input-form">
+                    </label>
+                    <label class="text-xs label-form color-primary--darker">
+                        COUNTRY
+                        <select id="country" class="input-form">
+                            <option value="" hidden>Select one</option>
+                            <option value="PE">Peru</option>
+                            <option value="CH">Chile</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="ARG">Argentina</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="flex-form">
+                    <h3 class="weight-300 text-xs">HOW CAN I HELP YOU?</h3>
+                    <label>
+                        <input type="checkbox" >
+                        <div>
+                            <p class="text-sm weight-300">Job Offer</p>
+                            <p class="text-xs color--gray-500 weight-300 weight-300">If you are looking to expand your team</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="checkbox" >
+                        <div>
+                            <p class="text-sm weight-300">Project Offer</p> 
+                            <p class="text-xs color--gray-500 weight-300">If you are looking to expand your team</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="checkbox" >
+                        <div>
+                            <p class="text-sm weight-300">Collaboration</p> 
+                            <p class="text-xs color--gray-500 weight-300">If you are looking to expand your team</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="checkbox" >
+                        <p class="text-sm weight-300">Other</p> 
+                    </label>
+                </div>
+                <input type="submit" value="Send" class="button button--primary button--w-full btn--marg-top"> 
+            </form>
+        </div>
+    </section>
+</body>
+</html>
